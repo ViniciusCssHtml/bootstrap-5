@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
 
-  <title>Bootstrap-05-local</title>
+  <title>Viagens-planos</title>
 </head>
 
 <body>
@@ -50,52 +50,90 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./local.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Locais
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="local.html">California</a></li>
-              <li><a class="dropdown-item" href="local.html">Paris</a></li>
-              <li><a class="dropdown-item" href="local.html">Dublin</a></li>
+              <li><a class="dropdown-item" href="california.html">California</a></li>
+              <li><a class="dropdown-item" href="paris.html">Paris</a></li>
+              <li><a class="dropdown-item" href="dublin.html">Dublin</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="planos.html">Planos</a>
+            <a class="nav-link active" href="planos.html">Planos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.html">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalLogin" href="#">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-outline-primary ms-md-2 " href="inscricao.html">INSCREVA-SE</a>
+            <a class="nav-link btn btn-primary color" data-bs-toggle="modal" data-bs-target="#modalLogin" href="#">Login</a>
           </li>
       </div>
     </div>
   </nav>
   <section class="container">
     <div class="text-center my-5">
-      <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
-      <h2 class="display-4 text-primary">Descubra Dublin</h2>
+      <span class="h6 d-block">SEU PLANO, SUA VIAGEM</span>
+      <h2 class="display-4 text-primary">Escolha o Plano</h2>
     </div>
     <div class="row">
-      <div class="col-md">
-        <img class="img-fluid mb-4" src="./img/local/foto-1.jpg" alt="">
-        <img class="img-fluid mb-4" src="./img/local/foto-2.jpg" alt="">
-        <img class="img-fluid mb-4" src="./img/local/foto-3.jpg" alt="">
+      <div class="col-md mb-5">
+        <div class="bg-light rounded p-4 box-shadow">
+          <h2>Gold</h2>
+          <ul class="list-unstyled lista-plano">
+            <li> → 30 dias de viagem</li>
+            <li> → 3 destinos diferentes</li>
+            <li> → Tudo pago pela empresa</li>
+            <li> → Ingressos para festas</li>
+          </ul>
+          <form action="">
+            <select class="form-select bg-light" aria-label="Cidades">
+              <option selected>Selecionar Cidades</option>
+              <option value="1">California</option>
+              <option value="2">Paris</option>
+              <option value="3">Dublin</option>
+            </select>
+          </form>
+          <div class="row mt-4 align-items-center">
+            <div class="col">
+              <a href="contato.html" class="btn btn-primary btn-lg  btn-block">COMPRAR PLANO</a>
+            </div>
+            <div class="col">
+              <span class="h4">R$5.000</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md">
-        <img class="img-fluid mb-4" src="./img/local/foto-4.jpg" alt="">
-        <img class="img-fluid mb-4" src="./img/local/foto-5.jpg" alt="">
-      </div>
-      <div class="col-md">
-        <img class="img-fluid mb-4" src="./img/local/foto-6.jpg" alt="">
-        <img class="img-fluid mb-4" src="./img/local/foto-7.jpg" alt="">
+      <div class="col-md mb-5">
+        <div class="bg-light rounded p-4 box-shadow">
+          <h2>Platinium <span class="badge bg-success">Novo</span></h2>
+          <ul class="list-unstyled lista-plano">
+            <li> → 60 dias de viagem</li>
+            <li> → 10 destinos diferentes</li>
+            <li> → Tudo pago pela empresa</li>
+            <li> → Ingressos para festas</li>
+          </ul>
+          <form action="">
+            <select class="form-select bg-light" aria-label="Cidades">
+              <option selected>Selecionar Cidades</option>
+              <option value="1">California</option>
+              <option value="2">Paris</option>
+              <option value="3">Dublin</option>
+            </select>
+          </form>
+          <div class="row mt-4 align-items-center">
+            <div class="col">
+              <a href="contato.html" class="btn btn-primary btn-lg  btn-block">COMPRAR PLANO</a>
+            </div>
+            <div class="col">
+              <span class="h4">R$8.000</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <footer class="bg-dark text-white">
+  <footer class="bg-dark text-white mt-5">
     <div class="container py-4">
       <div class="row">
         <div class="col-md-3 ">
@@ -109,9 +147,9 @@
         <div class="col-md-3 col-6">
           <h4 class="h6">LOCAIS</h4>
           <ul class="list-unstyled">
-            <li><a href="locais.html">California</a></li>
-            <li><a href="locais.html">Paris</a></li>
-            <li><a href="locais.html">Dublin</a></li>
+            <li><a href="california.html">California</a></li>
+            <li><a href="paris.html">Paris</a></li>
+            <li><a href="dublin.html">Dublin</a></li>
           </ul>
         </div>
         <div class="col-md-4">
